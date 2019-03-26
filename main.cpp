@@ -41,13 +41,13 @@ void welcomeMessage()
 {
     cout << "\t\t\t\t\tChips Rod Cutting Project\n"
     << "\t\t------------------------------------------\n\n";
-    cout << "\tThis program will well you the max price available from a rod.\n";
+    cout << "\tThis will tell you the max price available from cutting a rod.\n";
     cout << "\tThe rod must be between the length of 0-10.\n\n";
 
 }
 
 //-------------------------------------------------------------------------------------------------
-//mainWorker - This function reieves the rod length from the user and calls the rodCutter.
+//mainWorker - This function recieves the rod length from the user and calls the rodCutter.
 //             It is seperated from main so we can use the runAgain function effectively.
 //-------------------------------------------------------------------------------------------------
 void mainWorker()
